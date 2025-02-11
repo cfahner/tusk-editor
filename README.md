@@ -1,4 +1,4 @@
-# Tusk IDE
+# Tusk Editor
 
 Goals:
 * GNOME desktop app
