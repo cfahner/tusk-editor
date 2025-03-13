@@ -1,8 +1,9 @@
 # Tusk Editor
 
 Goals:
-* Run on all Linux desktops
-* Auto-detect the project context when opening a file (for example, find the nearest git root or find the `composer.json` file for PHP projects and assume that's the project root).
-* Don't polute the working directory
-* Don't have too many integrated tools, just a file/text/code editor and do that well (not building a whole "studio")
+* Run on Linux desktops
 * Support language server protocol
+* Auto-detect the project context when opening a file (find a `.git` folder or a `composer.json` file for example)
+* Don't pollute the working directory
+* Not building a whole studio - assume debugging, building, linting, etc. is done using external tools
+* No AI integrations since it angers the gods
